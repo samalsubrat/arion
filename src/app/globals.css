@@ -31,3 +31,17 @@ body {
     text-wrap: balance;
   }
 }
+
+
+.mask1 {
+  -webkit-mask-image: linear-gradient(to bottom, transparent 15%, black 100%);
+  mask-image: linear-gradient(to bottom, transparent 15%, black 100%);
+}
+.mask2 {
+  -webkit-mask-image: linear-gradient(to top, transparent 15%, black 100%);
+  mask-image: linear-gradient(to top, transparent 15%, black 100%);
+}
+
+.blue-gradient{
+  background: linear-gradient(111deg, #1A2331 1.79%, #0A1423 74.32%);
+}
