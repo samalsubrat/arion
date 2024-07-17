@@ -6,23 +6,23 @@ const colors = require("tailwindcss/colors");
 const {
   default: flattenColorPalette,
 } = require("tailwindcss/lib/util/flattenColorPalette");
-
+//
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{ts,tsx}"],
   darkMode: "class",
   theme: {
     extend: {
-      colors:{
+      colors: {
         black: {
           DEFAULT: "#000",
           100: "#040E1E",
-
         },
       },
       animation: {
         aurora: "aurora 60s linear infinite",
-        gradient: 'gradient 5s ease infinite',
+        gradient: "gradient 5s ease infinite",
+       
       },
       keyframes: {
         aurora: {
@@ -34,27 +34,29 @@ module.exports = {
           },
         },
         gradient: {
-          '0%': { 'background-position': '0% 50%' },
-          '50%': { 'background-position': '100% 50%' },
-          '100%': { 'background-position': '0% 50%' },
+          "0%": { "background-position": "0% 50%" },
+          "50%": { "background-position": "100% 50%" },
+          "100%": { "background-position": "0% 50%" },
         },
+      
       },
       backgroundSize: {
-        '400%': '400%',
+        "400%": "400%",
       },
       backgroundPosition: {
-        '0-50': '0% 50%',
-        '100-50': '100% 50%',
+        "0-50": "0% 50%",
+        "100-50": "100% 50%",
       },
       backgroundImage: {
-        'gradient-custom': 'linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)',
+        "gradient-custom":
+          "linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)",
       },
     },
-//hwllo
+    //hwllo
   },
   plugins: [
     addVariablesForColors,
-    function ({ matchUtilities, theme }: any) { 
+    function ({ matchUtilities, theme }: any) {
       matchUtilities(
         {
           "bg-grid": (value: any) => ({
@@ -76,7 +78,6 @@ module.exports = {
         { values: flattenColorPalette(theme("backgroundColor")), type: "color" }
       );
     },
-    
   ],
 };
 
@@ -90,5 +91,3 @@ function addVariablesForColors({ addBase, theme }: any) {
     ":root": newVars,
   });
 }
-
-

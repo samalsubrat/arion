@@ -3,8 +3,9 @@
 import { HoverBorderGradientButton } from "@/components/GlowButton";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { AuroraBackground } from "@/components/ui/aurora-background";
-import { Grid } from "@/components/Grid";
+import { Grid } from "@/components/Landing Page/Grid";
 import Image from "next/image";
+import About from "@/components/Landing Page/About";
 
 const page = () => {
   return (
@@ -34,6 +35,7 @@ const page = () => {
           layout="fill"
           priority
         />
+        <About/>
       </div>
     </>
   );

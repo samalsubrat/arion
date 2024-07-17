@@ -1,11 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
-import MaxWidthWrapper from "./MaxWidthWrapper";
+import MaxWidthWrapper from "../MaxWidthWrapper";
 import Image from "next/image";
 
 export const Grid = () => {
   return (
     <>
-      <div className="bg-black-100 xl:px-20 pb-20 ">
+      <div className="bg-black-100">
         <MaxWidthWrapper className="space-y-6">
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 gap-6 relative w-full">
             <div className="relative overflow-hidden rounded-3xl font-bold border border-gray-600/50 min-h-[400px] lg:min-h-[600px] lg:col-span-1">
