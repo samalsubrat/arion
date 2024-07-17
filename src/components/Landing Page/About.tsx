@@ -27,7 +27,7 @@ const About = () => {
               initial={{ opacity: 0, translateY: 10 }}
               whileInView={{
                 opacity: 1,
-                transition: { delay: 0.5, duration: 1 },
+                transition: { delay: 0.3, duration: 1 },
                 translateY: 0,
               }}
               viewport={{ once: true }}
@@ -50,7 +50,7 @@ const About = () => {
               initial={{ opacity: 0, translateY: 10 }}
               whileInView={{
                 opacity: 1,
-                transition: { delay: 1.0, duration: 1 },
+                transition: { delay: 0.8, duration: 1 },
                 translateY: 0
               }}
               viewport={{ once: true }}
@@ -74,7 +74,7 @@ const About = () => {
               initial={{ opacity: 0, translateY: 10 }}
               whileInView={{
                 opacity: 1,
-                transition: { delay: 1.5, duration: 1},
+                transition: { delay: 1.3, duration: 1},
                 translateY: 0
               }}
               viewport={{ once: true }}
