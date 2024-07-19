@@ -16,7 +16,7 @@ const About = () => {
           }}
           viewport={{ once: true }}
         >
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold dark:text-gray-200 text-left ">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-200 text-left ">
             Why <span className="text-[#A1E0DC]">Arion?</span>
           </h1>
         </motion.div>
@@ -37,10 +37,10 @@ const About = () => {
                   01
                 </div>
                 <div className="bg-gray-400 w-full h-[0.5px]" />
-                <div className="text-xl md:text-2xl lg:text-3xl">
+                <div className="text-xl md:text-2xl lg:text-3xl text-white">
                   Quality Assurance:
                 </div>
-                <p className="text-base md:text-lg lg:text-xl font-extralight">
+                <p className="text-base md:text-lg lg:text-xl font-extralight text-white">
                   Arion provides top-quality mechanical keyboards and gaming
                   peripherals tested for performance and durability.
                 </p>
@@ -61,10 +61,10 @@ const About = () => {
                   02
                 </div>
                 <div className="bg-gray-400 w-full h-[0.5px]" />
-                <div className="text-xl md:text-2xl lg:text-3xl">
+                <div className="text-xl md:text-2xl lg:text-3xl text-white">
                   Customer Support:
                 </div>
-                <p className="text-base md:text-lg lg:text-xl font-extralight">
+                <p className="text-base md:text-lg lg:text-xl font-extralight text-white">
                   Exceptional customer service and support to assist with any
                   queries or issues.
                 </p>
@@ -85,10 +85,10 @@ const About = () => {
                   03
                 </div>
                 <div className="bg-gray-400 w-full h-[0.5px]" />
-                <div className="text-xl md:text-2xl lg:text-3xl">
+                <div className="text-xl md:text-2xl lg:text-3xl text-white">
                   Community Engagement:
                 </div>
-                <p className="text-base md:text-lg lg:text-xl font-extralight">
+                <p className="text-base md:text-lg lg:text-xl font-extralight text-white">
                   Active engagement with the gaming community through events,
                   giveaways, and forums.
                 </p>

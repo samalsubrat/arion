@@ -16,10 +16,10 @@ const page = () => {
             <p className="uppercase tracking-widest text-center text-blue-100 max-w-80">
               A R I O N
             </p>
-            <div className="text-5xl md:text-6xl lg:text-7xl font-bold dark:text-white text-center ">
+            <div className="text-5xl md:text-6xl lg:text-7xl font-bold text-white text-center ">
               Elevate Your <span className="text-[#A1E0DC]">Experience.</span>
             </div>
-            <div className="font-extralight text-base md:text-lg lg:text-2xl dark:text-neutral-200 py-2">
+            <div className="font-extralight text-base md:text-lg lg:text-2xl text-neutral-200 py-2">
               Premium Mechanical Keyboards and Accessories
             </div>
             <HoverBorderGradientButton />
@@ -35,7 +35,7 @@ const page = () => {
           layout="fill"
           priority
         />
-        <About/>
+        <About />
       </div>
     </>
   );
