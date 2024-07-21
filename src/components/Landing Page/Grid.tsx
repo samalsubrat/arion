@@ -138,7 +138,7 @@ export const Grid = () => {
                   </div>
                 </div>
               </div>
-              <div className="absolute z-0 inset-0 w-full bg-gradient-to-bl from-transparent to-black-100 rounded-xl h-lvh"></div>
+              <div className="absolute z-0 inset-0 bg-gradient-to-bl from-transparent to-black-100/70 rounded-xl h-lvh w-lvw scale-150"></div>
             </div>
           </div>
         </MaxWidthWrapper>

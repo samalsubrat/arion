@@ -6,6 +6,7 @@ import { AuroraBackground } from "@/components/ui/aurora-background";
 import { Grid } from "@/components/Landing Page/Grid";
 import Image from "next/image";
 import About from "@/components/Landing Page/About";
+import Products from "@/components/Landing Page/Products";
 
 const page = () => {
   return (
@@ -36,6 +37,7 @@ const page = () => {
           priority
         />
         <About />
+        <Products/>
       </div>
     </>
   );

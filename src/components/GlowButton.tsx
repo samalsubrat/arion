@@ -8,7 +8,7 @@ export function HoverBorderGradientButton() {
       <HoverBorderGradient
         containerClassName="rounded-full"
         as="button"
-        className="bg-gradient-to-b from-[#1A2331] to-[#0A1423] text-black dark:text-white flex items-center"
+        className="bg-gradient-to-b from-[#1A2331] to-[#0A1423] text-white flex items-center"
       >
         <span>Explore Now</span>
       </HoverBorderGradient>

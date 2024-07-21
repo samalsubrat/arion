@@ -16,12 +16,12 @@ const About = () => {
           }}
           viewport={{ once: true }}
         >
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-200 text-left ">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-200 text-left">
             Why <span className="text-[#A1E0DC]">Arion?</span>
           </h1>
         </motion.div>
         <div className="flex justify-center items-center">
-          <div className="grid grid-cols-1 lg:grid-cols-3 grid-rows-1 py-20 max-lg:space-y-10 lg:space-x-10">
+          <div className="grid grid-cols-1 lg:grid-cols-3 grid-rows-1 pt-20 max-lg:space-y-10 lg:space-x-10">
             {/* quality assurance */}
             <motion.div
               initial={{ opacity: 0, translateY: 10 }}
