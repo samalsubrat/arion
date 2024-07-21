@@ -31,9 +31,9 @@ const items = [
   {
     title: "Arion Frost",
     description: "Our First Flagship keyboard, upgraded K8 Pro.",
-    img: "/frost.jpg",
-    height: 500,
-    width: 600,
+    img: "/Frost.jpg",
+    height: 1080,
+    width: 1920,
     link: "https://www.meckeys.com/shop/keyboard/80-keyboard/arion-frost/",
   },
   {
@@ -48,16 +48,16 @@ const items = [
     title: "Arion Deskmat",
     description: "Our best deskmat, with premium cordura fabric",
     img: "/deskmat.jpg",
-    height: 500,
-    width: 600,
+    height: 2500,
+    width: 2500,
     link: "https://www.meckeys.com/shop/keyboard/80-keyboard/arion-frost/",
   },
   {
     title: "Arion Coiled Cable",
     description: "Premium coiled cables, with multiple options",
     img: "/cable.jpg",
-    height: 500,
-    width: 600,
+    height: 2116,
+    width: 2962,
     link: "https://www.meckeys.com/shop/keyboard/80-keyboard/arion-frost/",
   },
 ];
