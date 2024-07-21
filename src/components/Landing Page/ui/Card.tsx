@@ -16,7 +16,7 @@ const Card = ({
   link: string;
 }) => {
   return (
-    <div className="flex gap-10">
+    <div className="flex gap-10 overflow-hidden">
       <div className="p-4 md:p-6 rounded-xl flex flex-col justify-end gap-10 border border-gray-700 flex-1">
         <div className="rounded-xl overflow-hidden w-full max-h-[500px] h-full blue-gradient">
           <a href={link} target="_blank">
