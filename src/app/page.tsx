@@ -7,6 +7,7 @@ import { Grid } from "@/components/Landing Page/Grid";
 import Image from "next/image";
 import About from "@/components/Landing Page/About";
 import Products from "@/components/Landing Page/Products";
+import Reels from "@/components/Landing Page/Reels";
 
 const page = () => {
   return (
@@ -38,6 +39,7 @@ const page = () => {
         />
         <About />
         <Products/>
+        <Reels/>
       </div>
     </>
   );
