@@ -41,7 +41,7 @@ const Card = ({
               Learn More {">"}
             </div>
             <a href={link} target="_blank">
-              <div className="px-8 py-3 bg-[#0A1423] hover:bg-[#1A2331] transition-all duration-300 hover:cursor-pointer border border-gray-700 rounded-full">
+              <div className="px-8 py-3 text-white bg-[#0A1423] hover:bg-[#1A2331] transition-all duration-300 hover:cursor-pointer border border-gray-700 rounded-full">
                 Buy Now
               </div>
             </a>
