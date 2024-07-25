@@ -54,7 +54,7 @@ async function getVid(queries) {
       });
 
       // Add the video URLs to the allVideoUrls array
-      allVideoUrls.push({ query: q, urls: videoUrls });
+      allVideoUrls.push({urls: videoUrls });
     } catch (err) {
       console.log(err);
     }
@@ -67,6 +67,9 @@ async function getVid(queries) {
 // Example usage with multiple queries
 getVid([
   "https://www.instagram.com/reel/C5HkythSn5Q/",
-  "https://www.instagram.com/reel/C6mxUddyXXU/",
   // Add more URLs as needed
 ]);
+
+export {href};
+
+export default allVideoUrls;

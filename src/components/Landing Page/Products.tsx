@@ -8,7 +8,7 @@ const Products = () => {
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-200 text-left ">
           Explore the <span className="text-[#A1E0DC]">line-up.</span>
         </h1>
-      <div className="grid lg:grid-cols-2 lg:grid-rows-2 pt-20 gap-6 md:gap-12 overflow-hidden">
+      <div className="grid lg:grid-cols-2 lg:grid-rows-2 pt-10 gap-6 md:gap-12 overflow-hidden">
         {items.map((item, i) => (
           // eslint-disable-next-line react/jsx-key
           <Card

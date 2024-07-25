@@ -1,3 +1,5 @@
+import {href} from "@/components/Landing Page/api"
+
 const ReelContainer = ({ source }: { source: string }) => {
   return (
     <div className="aspect-w-9 aspect-h-16 rounded-xl">
@@ -8,7 +10,7 @@ const ReelContainer = ({ source }: { source: string }) => {
         preload="none"
         loop
       >
-        <source src={source} type="video/mp4" />
+        <source src={href} type="video/mp4" />
       </video>
     </div>
   );
