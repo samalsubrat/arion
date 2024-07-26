@@ -8,6 +8,7 @@ import Image from "next/image";
 import About from "@/components/Landing Page/About";
 import Products from "@/components/Landing Page/Products";
 import Reels from "@/components/Landing Page/Reels";
+import Reviews from "@/components/Landing Page/Reviews";
 
 const page = () => {
   return (
@@ -40,6 +41,7 @@ const page = () => {
         <About />
         <Products/>
         <Reels/>
+        <Reviews/>
       </div>
     </>
   );

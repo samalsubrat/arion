@@ -22,7 +22,7 @@ module.exports = {
       animation: {
         aurora: "aurora 60s linear infinite",
         gradient: "gradient 5s ease infinite",
-       
+        marquee: "marquee 20s linear infinite",
       },
       keyframes: {
         aurora: {
@@ -38,7 +38,10 @@ module.exports = {
           "50%": { "background-position": "100% 50%" },
           "100%": { "background-position": "0% 50%" },
         },
-      
+        marquee: {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(calc(-100% - var(--gap)))" },
+        },
       },
       backgroundSize: {
         "400%": "400%",
