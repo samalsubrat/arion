@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <>
       <MaxWidthWrapper className="border-t border-gray-800 bg-black-100">
-        <div className=" w-full flex flex-col md:flex-row items-center justify-between py-10 text-base text-white gap-4">
-          <div>
+        <div className=" w-full flex flex-col md:flex-row items-center justify-between py-10 text-base text-white max-md:space-y-4">
+          <div className="text-center">
             &copy; Arion - Mechanical Keyboards and E-Sports Accessories
           </div>
           <div className="gap-4 flex">
