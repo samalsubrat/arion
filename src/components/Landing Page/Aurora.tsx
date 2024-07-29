@@ -6,7 +6,7 @@ import Image from "next/image";
 const Aurora = () => {
   return (
     <>
-      <AuroraBackground className="w-full -top-10 ">
+      <AuroraBackground className="w-full -top-12 ">
         <MaxWidthWrapper className="flex flex-col gap-4 items-center text-center justify-center w-full z-50 -top-20">
           <p className="uppercase tracking-widest text-center text-blue-100 max-w-80">
             A R I O N
