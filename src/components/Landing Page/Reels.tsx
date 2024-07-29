@@ -17,7 +17,7 @@ const Reels = () => {
         </h1>
         <div className=" gap-6 pt-10">
           <Carousel>
-            <CarouselContent className="py-10 pr-10">
+            <CarouselContent className="py-10 pr-10 mr-2">
               {items.map((item) => (
                 // eslint-disable-next-line react/jsx-key
                 <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/4"> 

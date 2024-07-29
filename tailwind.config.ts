@@ -23,6 +23,7 @@ module.exports = {
         aurora: "aurora 60s linear infinite",
         gradient: "gradient 5s ease infinite",
         marquee: "marquee 20s linear infinite",
+        "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
       },
       keyframes: {
         aurora: {
@@ -41,6 +42,10 @@ module.exports = {
         marquee: {
           from: { transform: "translateX(0)" },
           to: { transform: "translateX(calc(-100% - var(--gap)))" },
+        },
+        "marquee-vertical": {
+          from: { transform: "translateY(0)" },
+          to: { transform: "translateY(calc(-100% - var(--gap)))" },
         },
       },
       backgroundSize: {

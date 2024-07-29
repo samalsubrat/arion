@@ -1,3 +1,5 @@
+"use client";
+
 import { motion, useTransform, useViewportScroll } from "framer-motion";
 import MaxWidthWrapper from "../MaxWidthWrapper";
 
