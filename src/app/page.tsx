@@ -14,7 +14,6 @@ const page = () => {
         <div className="relative -mt-32 z-40">
           <Grid />
         </div>
-
         <About />
         <Products />
         <Reels />
