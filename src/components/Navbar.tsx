@@ -29,7 +29,7 @@ const Navbar = () => {
     transition = {{duration:0.35, ease:"easeInOut"}}
 
     className=" flex justify-center mx-auto max-w-fit sticky rounded-full border border-gray-700/60 bg-black/25 top-5 z-[99999] backdrop-blur-xl transition-all duration-300 ">
-      <div className="inline-block fit-content text-gray-300 ease-in-out duration-300">
+      <div className="inline-block fit-content text-gray-300 ease-in-out duration-300 text-sm md:text-base ">
         <div className="flex gap-5 p-2 px-8 items-center z-30">
           <Link
             href="/"
