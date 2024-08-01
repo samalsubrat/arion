@@ -38,7 +38,7 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            href="/"
+            href="/frost"
             className="flex z-40 font-regular hover:font-semibold hover:text-white ease-in-out duration-300"
           >
             Frost
