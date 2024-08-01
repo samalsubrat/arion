@@ -31,7 +31,7 @@ const Reviews = () => {
   return (
     <>
       <MaxWidthWrapper>
-        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-200 text-left mb-10">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-200 text-left mb-10">
           Hear from our <span className="text-[#A1E0DC]">customers.</span>
         </h1>
 

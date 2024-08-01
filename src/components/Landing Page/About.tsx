@@ -18,7 +18,7 @@ const About = () => {
           }}
           viewport={{ once: true }}
         >
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-200 text-left">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-200 text-left">
             Why <span className="text-[#A1E0DC]">Arion?</span>
           </h1>
         </motion.div>

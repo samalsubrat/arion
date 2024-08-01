@@ -12,7 +12,7 @@ const Reels = () => {
   return (
     <>
       <MaxWidthWrapper className="py-40">
-        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-200 text-left ">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-200 text-left ">
           Get to know <span className="text-[#A1E0DC]">Arion.</span>
         </h1>
         <div className=" gap-6 pt-10">

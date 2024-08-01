@@ -17,6 +17,7 @@ export const Grid = () => {
                   objectFit="cover"
                   objectPosition="top"
                   priority
+                  loading="eager"
                   className="rounded-xl"
                 />
               </div>

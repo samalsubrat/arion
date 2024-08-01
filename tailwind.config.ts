@@ -24,8 +24,19 @@ module.exports = {
         gradient: "gradient 5s ease infinite",
         marquee: "marquee 20s linear infinite",
         "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
+        spotlight: "spotlight 2s ease .75s 1 forwards",
       },
       keyframes: {
+        spotlight: {
+          "0%": {
+            opacity: 0,
+            transform: "translate(-72%, -62%) scale(0.5)",
+          },
+          "100%": {
+            opacity: 1,
+            transform: "translate(-50%,-40%) scale(1)",
+          },
+        },
         aurora: {
           from: {
             backgroundPosition: "50% 50%, 50% 50%",
@@ -58,8 +69,11 @@ module.exports = {
       backgroundImage: {
         "gradient-custom":
           "linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)",
+        "arion" : "url('/ArionFrost03.png')",
+        "arion2" : "url('/ArionFrost05.png')",
       },
     },
+
     //hwllo
   },
   plugins: [
@@ -69,7 +83,7 @@ module.exports = {
         {
           "bg-grid": (value: any) => ({
             backgroundImage: `url("${svgToDataUri(
-              `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="100" height="100" fill="none" stroke="${value}"><path d="M0 .5H31.5V32"/></svg>`
+              `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="50" height="50" fill="none" stroke="${value}"><path d="M0 .5H31.5V32"/></svg>`
             )}")`,
           }),
           "bg-grid-small": (value: any) => ({
