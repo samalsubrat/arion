@@ -25,6 +25,7 @@ const Card = ({
               width={width}
               height={height}
               alt="product"
+              draggable="false"
               className="rounded-xl transform transition-transform duration-300 hover:scale-105 hover:cursor-pointer w-full h-full shadow-2xl object-cover"
             />
           </a>

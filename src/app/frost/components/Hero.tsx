@@ -17,11 +17,11 @@ const Hero = () => {
       />
       <div className="opacity-80">
         <Spotlight
-          className="top-28 left-80 h-[80vh] w-[50vw]"
+          className="top-0 md:top-28 left-10 md:left-80 h-[80vh] w-[50vw]"
           fill="#A1E0DC"
         />
       </div>
-      <div className=" p-4 max-w-7xl  mx-auto relative z-10  w-full pt-20 md:pt-0 flex flex-col items-center mt-40">
+      <div className=" p-4 max-w-7xl  mx-auto relative z-10  w-full pt-20 md:pt-0 flex flex-col items-center mt-20 md:mt-40">
         <h1 className="text-4xl md:text-7xl font-bold text-center tracking-widest bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
           FROST
         </h1>
@@ -44,6 +44,9 @@ const Hero = () => {
           width={1285}
           height={432}
           className="my-10"
+          priority
+          loading="eager"
+          draggable="false"
         />
         </motion.div>
         <motion.div

@@ -18,6 +18,7 @@ const ReelContainer = ({
         className="rounded-xl object-cover w-full h-full"
         preload="none"
         loop
+        draggable="false"
       >
         <source src={source} type="video/mp4" />
       </video>

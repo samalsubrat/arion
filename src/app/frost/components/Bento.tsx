@@ -35,6 +35,7 @@ const Bento = () => {
               alt="Arion Frost"
               width={1765}
               height={962}
+              draggable="false"
               className="max-lg:rounded-b-lg bottom-0 w-full h-1/2 lg:rounded-r-lg lg:right-0 lg:w-1/2 lg:h-full object-cover object-left"
             />
           </div>
@@ -54,6 +55,7 @@ const Bento = () => {
               alt="Arion Frost"
               width={2553}
               height={960}
+              draggable="false"
               className="rounded-b-lg bottom-0 w-full h-3/5 object-cover "
             />
           </div>
@@ -70,12 +72,12 @@ const Bento = () => {
         }}
         viewport={{ once: true }}
       >
-        <div className="flex flex-col lg:flex-row gap-6 justify-between py-10 ">
+        <div className="flex flex-col lg:flex-row gap-6 justify-between pt-10 ">
           <div className="rounded-lg w-full bg-arion bg-cover p-10 min-h-[300px] xl:h-[550px] relative flex items-end">
             <div className="text-black font-medium w-full text-2xl md:text-3xl lg:text-4xl z-10 tracking-wide">
               Pre-lubed Gateron 3.0 Switches
             </div>
-            <div className="bg-white/70 mask1 h-full w-full inset-x-0 absolute bottom-0 z-0 rounded-lg"></div>
+            <div className="bg-white lg:bg-white/70 mask1 h-full w-full inset-x-0 absolute bottom-0 z-0 rounded-lg"></div>
           </div>
           <div className="blue-gradient rounded-lg w-full min-h-[300px] md:max-h-[550px] flex flex-col justify-between overflow-hidden">
             <div className=" text-white p-5 lg:p-10">
@@ -93,6 +95,7 @@ const Bento = () => {
               alt="Arion Frost"
               width={574}
               height={282}
+              draggable="false"
               className="rounded-b-lg bottom-0 w-full  object-cover object-left md:block lg:hidden xl:block max-lg:h-[250px] flex-shrink"
             />
           </div>
