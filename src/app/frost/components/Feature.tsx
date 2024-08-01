@@ -3,7 +3,7 @@ import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 
 const Feature = () => {
   return (
-    <MaxWidthWrapper className="py-20">
+    <MaxWidthWrapper className="py-20 xl:px-20 2xl:px-60">
         <div className="grid grid-cols-3 lg:grid-cols-6 place-content-center mx-auto">
           {items.map((item) => (
             // eslint-disable-next-line react/jsx-key
@@ -44,7 +44,7 @@ const items = [
     {
       image:
         "/benefits/5.svg",
-      title: "Connectivity",
+      title: "Platform",
       subtitle: "Mac and Windows",
     },
     {
