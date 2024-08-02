@@ -6,6 +6,7 @@ const page = () => {
     <>
       <div className="bg-black-100">
         <Hero />
+        {/* asdas */}
         <Bento />
         <Feature />
       </div>
