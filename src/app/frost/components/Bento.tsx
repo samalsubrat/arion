@@ -6,7 +6,7 @@ import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 
 const Bento = () => {
   return (
-    <MaxWidthWrapper className="xl:px-20 2xl:px-60">
+    <MaxWidthWrapper className="xl:px-20 2xl:px-40">
       {/* first row  */}
       <motion.div
         initial={{ opacity: 0, translateX: -10 }}
