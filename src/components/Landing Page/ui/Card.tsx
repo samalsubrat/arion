@@ -17,8 +17,8 @@ const Card = ({
 }) => {
   return (
     <div className="flex flex-col md:flex-row gap-6">
-      <div className="p-4 md:p-6 rounded-xl flex flex-col justify-end gap-6 border border-gray-700 w-full md:flex-1">
-        <div className="rounded-xl overflow-hidden w-full max-h-[500px] h-64 md:h-full blue-gradient">
+      <div className="p-4 md:p-6 rounded-lg flex flex-col justify-end gap-6 border border-gray-700 w-full md:flex-1">
+        <div className="rounded-lg overflow-hidden w-full max-h-[500px] h-64 md:h-full blue-gradient">
           <a href={link} target="_blank">
             <Image
               src={img}
@@ -26,7 +26,7 @@ const Card = ({
               height={height}
               alt="product"
               draggable="false"
-              className="rounded-xl transform transition-transform duration-300 hover:scale-105 hover:cursor-pointer w-full h-full shadow-2xl object-cover"
+              className="rounded-lg transform transition-transform duration-300 hover:scale-105 hover:cursor-pointer w-full h-full shadow-2xl object-cover"
             />
           </a>
         </div>

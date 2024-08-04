@@ -6,7 +6,7 @@ import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 
 const Bento = () => {
   return (
-    <MaxWidthWrapper className="xl:px-20 2xl:px-40">
+    <MaxWidthWrapper className="xl:px-20 2xl:px-60">
       {/* first row  */}
       <motion.div
         initial={{ opacity: 0, translateX: -10 }}
@@ -17,7 +17,7 @@ const Bento = () => {
         }}
         viewport={{ once: true }}
       >
-        <div className="flex flex-col lg:flex-row gap-6 justify-between">
+        <div className="flex flex-col lg:flex-row gap-4 justify-between">
           <div className="blue-gradient min-h-[300px] xl:h-[450px] w-full rounded-lg flex flex-col lg:flex-row">
             <div className=" text-white p-5 lg:p-10 w-full h-1/2 lg:h-full lg:w-1/2">
               <div className="text-2xl md:text-3xl lg:text-4xl mb-4 tracking-wide">
@@ -72,7 +72,7 @@ const Bento = () => {
         }}
         viewport={{ once: true }}
       >
-        <div className="flex flex-col lg:flex-row gap-6 justify-between pt-10 ">
+        <div className="flex flex-col lg:flex-row gap-4 justify-between pt-10 ">
           <div className="rounded-lg w-full bg-arion bg-cover p-10 min-h-[300px] xl:h-[550px] relative flex items-end">
             <div className="text-black font-medium w-full text-2xl md:text-3xl lg:text-4xl z-10 tracking-wide">
               Pre-lubed Gateron 3.0 Switches

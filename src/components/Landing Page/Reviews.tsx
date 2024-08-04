@@ -7,7 +7,7 @@ const Reviews = () => {
   const ReviewCard = ({ name, review, gradientClass }: { name: string; review: string; gradientClass?: string }) => {
     return (
       <div className="flex w-full">
-        <div className="rounded-xl p-10 blue-gradient space-y-2 w-full">
+        <div className="rounded-lg p-10 blue-gradient space-y-2 w-full">
           <div className="flex gap-4 items-center">
             <div className={cn("size-10 rounded-full",gradientClass)} />
             <div>

@@ -45,7 +45,7 @@ const items = [
       image:
         "/benefits/5.svg",
       title: "Platform",
-      subtitle: "Mac and Windows",
+      subtitle: "Multi Platform Support",
     },
     {
       "image": "/benefits/6.webp",

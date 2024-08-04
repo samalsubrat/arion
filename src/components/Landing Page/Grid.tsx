@@ -9,7 +9,7 @@ export const Grid = () => {
         <MaxWidthWrapper className="space-y-6">
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 gap-6 relative w-full">
             <div className="relative overflow-hidden rounded-3xl font-bold border border-gray-600/50 min-h-[400px] lg:min-h-[600px] lg:col-span-1">
-              <div className="absolute inset-0 top-0 rounded-xl">
+              <div className="absolute inset-0 top-0 rounded-lg">
                 <Image
                   src="/b1.png"
                   alt="long-life"
@@ -18,16 +18,16 @@ export const Grid = () => {
                   objectPosition="top"
                   priority
                   loading="eager"
-                  className="rounded-xl"
+                  className="rounded-lg"
                 />
               </div>
-              <div className="relative z-10 flex flex-col justify-end text-left max-w-full rounded-xl min-h-[400px] lg:min-h-[600px] ">
+              <div className="relative z-10 flex flex-col justify-end text-left max-w-full rounded-lg min-h-[400px] lg:min-h-[600px] ">
                 <div className="z-10">
                   <div className="text-3xl p-10 font-bold max-md:text-xl bottom-0">
                     Exquisite Precision Engineering and Craftsmanship
                   </div>
                 </div>
-                <div className="absolute z-0 w-full bg-gradient-to-b from-transparent to-black-100 left-0 right-0 top-0 -bottom-10 rounded-xl"></div>
+                <div className="absolute z-0 w-full bg-gradient-to-b from-transparent to-black-100 left-0 right-0 top-0 -bottom-10 rounded-lg"></div>
               </div>
             </div>
 
@@ -52,7 +52,7 @@ export const Grid = () => {
                     Pure Copper
                   </div>
                 </div>
-                <div className="absolute left-10 z-10 flex flex-col justify-start text-left max-w-full rounded-xl max-lg:left-6 max-md:left-10">
+                <div className="absolute left-10 z-10 flex flex-col justify-start text-left max-w-full rounded-lg max-lg:left-6 max-md:left-10">
                   <div className="z-10">
                     <div className="text-3xl leading-9 tracking-wide font-bold max-md:text-xl top-0">
                       Unparalleled Durability <br />
@@ -70,7 +70,7 @@ export const Grid = () => {
                 <div className="bg-[#101A2E] px-4 py-3 h-20 w-40 items-center flex justify-center border border-gray-800/20 rounded-lg">XXL Mat</div>
                 <div className="bg-[#101A2E] px-4 py-3 h-20 w-40 items-center flex justify-center border border-gray-800/20 rounded-lg">OSA Profile</div>
                 </div>
-                <div className="left-10 z-10 flex items-center text-left max-w-full rounded-xl">
+                <div className="left-10 z-10 flex items-center text-left max-w-full rounded-lg">
                   <div className="z-10">
                     <p className="text-sm">Ergonomic design for</p>
                     <h1 className="text-3xl leading-9 tracking-wide font-bold max-md:text-xl top-0">
@@ -95,7 +95,7 @@ export const Grid = () => {
                   />
                 </div>
 
-                <div className="absolute px-10 z-10 flex flex-col justify-start text-left max-w-full rounded-xl">
+                <div className="absolute px-10 z-10 flex flex-col justify-start text-left max-w-full rounded-lg">
                   <div className="z-10 ">
                     <div className="text-3xl leading-9 tracking-wide font-bold max-md:text-xl top-0">
                       Multi-Device Pairing for Versatile Use Across Platforms
@@ -105,7 +105,7 @@ export const Grid = () => {
               </div>
 
               <div className="relative flex items-center justify-center bg-gradient-custom bg-400% animate-gradient p-10 rounded-3xl border border-gray-600/50 overflow-hidden">
-                <div className="left-10 z-10 flex flex-col text-center max-w-full rounded-xl">
+                <div className="left-10 z-10 flex flex-col text-center max-w-full rounded-lg">
                   <div className="z-10">
                     <h1 className="text-3xl leading-9 tracking-wide font-bold max-md:text-xl top-0">
                       Optimized for Maximum Productivity
@@ -115,7 +115,7 @@ export const Grid = () => {
               </div>
             </div>
             <div className="relative overflow-hidden rounded-3xl w-full font-bold border border-gray-600/50 ">
-              <div className="absolute inset-0 bottom-0 rounded-xl">
+              <div className="absolute inset-0 bottom-0 rounded-lg">
                 <Image
                   src="/b5.jpeg"
                   alt="long-life"
@@ -123,12 +123,12 @@ export const Grid = () => {
                   objectFit="cover"
                   objectPosition="bottom"
                   priority
-                  className="rounded-xl"
+                  className="rounded-lg"
                 />
               </div>
 
               <div className="relative flex items-center py-52 rounded-3xl overflow-hidden">
-                <div className=" z-10 flex flex-col text-left max-w-full rounded-xl">
+                <div className=" z-10 flex flex-col text-left max-w-full rounded-lg">
                   <div className="z-10 px-10 space-y-2">
                     <p className="text-sm lg:text-[16px] font-light tracking-wider">
                       BUILT TO ATTRACT
@@ -139,7 +139,7 @@ export const Grid = () => {
                   </div>
                 </div>
               </div>
-              <div className="absolute z-0 inset-0 bg-gradient-to-bl from-transparent to-black-100/70 rounded-xl h-lvh w-lvw scale-150"></div>
+              <div className="absolute z-0 inset-0 bg-gradient-to-bl from-transparent to-black-100/70 rounded-lg h-lvh w-lvw scale-150"></div>
             </div>
           </div>
         </MaxWidthWrapper>
