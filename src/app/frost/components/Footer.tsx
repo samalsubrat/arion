@@ -19,7 +19,7 @@ const Footer = () => {
               className="object-top"
             />
           </div>
-          <div className="text-2xl md:text-3xl tracking-wide">
+          <div className="text-2xl md:text-3xl tracking-wide text-white">
             Arion Eclipse Mini
           </div>
           <p className="text-base md:text-lg lg:text-xl font-extralight text-white">
@@ -65,7 +65,7 @@ const Footer = () => {
               className="object-top"
             />
           </div>
-          <div className="text-2xl md:text-3xl tracking-wide">
+          <div className="text-2xl md:text-3xl tracking-wide text-white">
             Arion Deskmat
           </div>
           <p className="text-base md:text-lg lg:text-xl font-extralight text-white">
@@ -111,7 +111,7 @@ const Footer = () => {
               className="object-top"
             />
           </div>
-          <div className="text-2xl md:text-3xl tracking-wide">
+          <div className="text-2xl md:text-3xl tracking-wide text-white">
             Arion Coiled Cable
           </div>
           <p className="text-base md:text-lg lg:text-xl font-extralight text-white">
