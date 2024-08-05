@@ -7,7 +7,7 @@ const Footer = () => {
       <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-200 text-left">
         Explore <span className="text-[#A1E0DC]">Arion.</span>
       </h1>
-      <div className="blue-gradient rounded-lg p-5 lg:p-10 grid grid-cols-1 lg:grid-cols-3 mt-10 lg:mt-20 ">
+      <div className="blue-gradient rounded-lg p-10 grid grid-cols-1 lg:grid-cols-3 max-lg:gap-10 mt-10 lg:mt-20 ">
         {/* eclipse mini  */}
         <div className="text-center space-y-2">
           <div className="">
@@ -19,16 +19,20 @@ const Footer = () => {
               className="object-top"
             />
           </div>
-          <div className="text-2xl md:text-3xl tracking-wide">Arion Eclipse Mini</div>
+          <div className="text-2xl md:text-3xl tracking-wide">
+            Arion Eclipse Mini
+          </div>
           <p className="text-base md:text-lg lg:text-xl font-extralight text-white">
-            Best budget keyboard,<br/>doesn&apos;t hurt your pocket.
+            Best budget keyboard,
+            <br />
+            doesn&apos;t hurt your pocket.
           </p>
-          <div className="flex justify-around items-center">
+          <div className="flex justify-center gap-12 items-center py-2">
             <div className="text-[#A1E0DC] hover:cursor-pointer hover:underline transition-all duration-300">
               Learn More {">"}
             </div>
             <a href="" target="_blank">
-              <div className="px-4 py-2 text-white bg-[#0A1423] hover:bg-[#1A2331] transition-all duration-300 hover:cursor-pointer border border-gray-700 rounded-full">
+              <div className="px-3 py-1 text-white bg-[#0A1423] hover:bg-[#1A2331] transition-all duration-300 hover:cursor-pointer border border-gray-700 rounded-full">
                 Buy Now
               </div>
             </a>
@@ -61,34 +65,38 @@ const Footer = () => {
               className="object-top"
             />
           </div>
-          <div className="text-2xl md:text-3xl tracking-wide">Arion Deskmat</div>
+          <div className="text-2xl md:text-3xl tracking-wide">
+            Arion Deskmat
+          </div>
           <p className="text-base md:text-lg lg:text-xl font-extralight text-white">
-            Best budget keyboard,<br/>doesn&apos;t hurt your pocket.
+            Our best deskmat,
+            <br />
+            with premium cordura fabric
           </p>
-          <div className="flex justify-around items-center">
+          <div className="flex justify-center gap-12 items-center py-2">
             <div className="text-[#A1E0DC] hover:cursor-pointer hover:underline transition-all duration-300">
               Learn More {">"}
             </div>
             <a href="" target="_blank">
-              <div className="px-4 py-2 text-white bg-[#0A1423] hover:bg-[#1A2331] transition-all duration-300 hover:cursor-pointer border border-gray-700 rounded-full">
+              <div className="px-3 py-1 text-white bg-[#0A1423] hover:bg-[#1A2331] transition-all duration-300 hover:cursor-pointer border border-gray-700 rounded-full">
                 Buy Now
               </div>
             </a>
           </div>
           <p className="text-base md:text-lg lg:text-xl font-normal text-white">
-            60% Layout
+            Cordura Fabric
           </p>
           <p className="text-base md:text-lg lg:text-xl font-normal text-white">
-            Tri-Mode: Wired, BT, 2.4G
+            900x300x3 mm
           </p>
           <p className="text-base md:text-lg lg:text-xl font-normal text-white">
-            Hot-swappable
+            Splash and scratch resistant
           </p>
           <p className="text-base md:text-lg lg:text-xl font-normal text-white">
-            Fully Customizable
+            Anti-fray stitching
           </p>
           <p className="text-base md:text-lg lg:text-xl font-normal text-white">
-            Multi Platform Support
+            Anti slip rubber base
           </p>
         </div>
 
@@ -103,34 +111,38 @@ const Footer = () => {
               className="object-top"
             />
           </div>
-          <div className="text-2xl md:text-3xl tracking-wide">Arion Coiled Cable</div>
+          <div className="text-2xl md:text-3xl tracking-wide">
+            Arion Coiled Cable
+          </div>
           <p className="text-base md:text-lg lg:text-xl font-extralight text-white">
-            Best budget keyboard,<br/>doesn&apos;t hurt your pocket.
+            Premium coiled cables,
+            <br />
+            with multiple options
           </p>
-          <div className="flex justify-around items-center">
+          <div className="flex justify-center gap-12 items-center py-2">
             <div className="text-[#A1E0DC] hover:cursor-pointer hover:underline transition-all duration-300">
               Learn More {">"}
             </div>
             <a href="" target="_blank">
-              <div className="px-4 py-2 text-white bg-[#0A1423] hover:bg-[#1A2331] transition-all duration-300 hover:cursor-pointer border border-gray-700 rounded-full">
+              <div className="px-3 py-1 text-white bg-[#0A1423] hover:bg-[#1A2331] transition-all duration-300 hover:cursor-pointer border border-gray-700 rounded-full">
                 Buy Now
               </div>
             </a>
           </div>
           <p className="text-base md:text-lg lg:text-xl font-normal text-white">
-            60% Layout
+            Pure Copper Wire
           </p>
           <p className="text-base md:text-lg lg:text-xl font-normal text-white">
-            Tri-Mode: Wired, BT, 2.4G
+            Highly durable
           </p>
           <p className="text-base md:text-lg lg:text-xl font-normal text-white">
-            Hot-swappable
+            Efficient and appealing
           </p>
           <p className="text-base md:text-lg lg:text-xl font-normal text-white">
-            Fully Customizable
+            PET outer sleeve
           </p>
           <p className="text-base md:text-lg lg:text-xl font-normal text-white">
-            Multi Platform Support
+            Ultra-Fast Connectivity
           </p>
         </div>
       </div>

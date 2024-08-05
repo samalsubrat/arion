@@ -22,7 +22,7 @@ const Gallery = () => {
             viewport={{ once: true }}
           >
             <Image
-              src="/Gallery/arionFrost01.jpg"
+              src="/Gallery/arionFrost01.webp"
               alt="arionfrost"
               width={1440}
               height={960}
@@ -39,7 +39,7 @@ const Gallery = () => {
             viewport={{ once: true }}
           >
             <Image
-              src="/Gallery/arionFrost02.jpg"
+              src="/Gallery/arionFrost02.webp"
               alt="arionfrost"
               width={1440}
               height={960}
@@ -56,7 +56,7 @@ const Gallery = () => {
             viewport={{ once: true }}
           >
             <Image
-              src="/Gallery/arionFrost03.jpg"
+              src="/Gallery/arionFrost03.webp"
               alt="arionfrost"
               width={1440}
               height={960}

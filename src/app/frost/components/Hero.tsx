@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -22,13 +22,6 @@ const Hero = () => {
         />
       </div>
       <div className=" p-4 max-w-7xl  mx-auto relative z-10  w-full pt-20 md:pt-0 flex flex-col items-center mt-20 md:mt-40">
-        <h1 className="text-4xl md:text-7xl font-bold text-center tracking-widest bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
-          FROST
-        </h1>
-        <p className="mt-4 font-normal text-base md:text-lg lg:text-xl text-neutral-300 max-w-lg text-center mx-auto">
-          A masterpiece of modern engineering and design that&apos;s set to
-          redefine your keyboard experience.
-        </p>
         <motion.div
           initial={{ opacity: 0, translateY: 10 }}
           whileInView={{
@@ -38,27 +31,43 @@ const Hero = () => {
           }}
           viewport={{ once: true }}
         >
-        <Image
-          src="/ArionFrost.png"
-          alt="arionfrost"
-          width={1285}
-          height={432}
-          className="my-10"
-          priority
-          loading="eager"
-          draggable="false"
-        />
+          <h1 className="text-4xl md:text-7xl font-bold text-center tracking-widest bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+            FROST
+          </h1>
+          <p className="mt-4 font-normal text-base md:text-lg lg:text-xl text-neutral-300 max-w-lg text-center mx-auto">
+            A masterpiece of modern engineering and design that&apos;s set to
+            redefine your keyboard experience.
+          </p>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, translateY: 10 }}
+          whileInView={{
+            opacity: 1,
+            transition: { duration: 1 },
+            translateY: 0,
+          }}
+          viewport={{ once: true }}
+        >
+          <Image
+            src="/ArionFrost.png"
+            alt="arionfrost"
+            width={1285}
+            height={432}
+            className="my-10"
+            priority
+            draggable="false"
+          />
         </motion.div>
         <motion.div
           initial={{ opacity: 0, translateY: 15 }}
           whileInView={{
             opacity: 1,
-            transition: { duration: 2 },
+            transition: { duration: 1.5,delay:0.5 },
             translateY: 0,
           }}
           viewport={{ once: true }}
         >
-        <HoverBorderGradientButton text="Buy" />
+          <HoverBorderGradientButton text="Buy" />
         </motion.div>
       </div>
       <div className="bg-black-100 mask3 h-lvh w-lvw inset-x-0 absolute bottom-0" />
