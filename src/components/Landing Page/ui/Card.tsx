@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils";
 import Image from "next/image";
 
 const Card = ({
@@ -7,6 +8,7 @@ const Card = ({
   height,
   width,
   link,
+  className,
 }: {
   title: string;
   description: string;
@@ -14,6 +16,7 @@ const Card = ({
   height: number;
   width: number;
   link: string;
+  className?:string;
 }) => {
   return (
     <div className="flex flex-col md:flex-row gap-6">
@@ -26,7 +29,7 @@ const Card = ({
               height={height}
               alt="product"
               draggable="false"
-              className="rounded-lg transform transition-transform duration-300 hover:scale-105 hover:cursor-pointer w-full h-full shadow-2xl object-cover"
+              className={cn("rounded-lg transform transition-transform duration-300 hover:scale-105 hover:cursor-pointer w-full h-full shadow-2xl object-cover",className)}
             />
           </a>
         </div>

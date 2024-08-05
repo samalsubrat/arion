@@ -39,7 +39,7 @@ const items = [
   {
     title: "Arion Eclipse Mini",
     description: "Best budget keyboard, doesn't hurt your pocket.",
-    img: "/eclipse.png",
+    img: "/eclipse01.png",
     height: 2395,
     width: 3090,
     link: "https://www.meckeys.com/shop/keyboard/80-keyboard/arion-frost/",
