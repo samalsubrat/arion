@@ -40,7 +40,7 @@ export default Reels;
 const items = [
   {
     source: "/v1.mp4",
-    title:"Optimum Tech"
+    title:"Arion"
   },
   {
     source: "/v2.mp4",
