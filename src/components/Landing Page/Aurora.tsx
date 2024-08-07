@@ -7,10 +7,11 @@ const Aurora = () => {
   return (
     <>
       <AuroraBackground className="w-full -top-12 ">
-        <MaxWidthWrapper className="flex flex-col gap-4 items-center text-center justify-center w-full z-50 -top-20">
-          <p className="uppercase tracking-widest text-center text-blue-100 max-w-80">
+        <MaxWidthWrapper className="flex flex-col gap-4 items-center text-center justify-center w-full z-50 -top-16">
+          <Image src="/ArionLogo.png" width={3327} height={2817} alt="arionlogo" className="w-24 md:w-32 h-fit"/>
+          {/* <p className="uppercase tracking-widest text-center text-blue-100 max-w-80">
             A R I O N
-          </p>
+          </p> */}
           <div className="text-4xl md:text-6xl lg:text-7xl font-bold text-white text-center ">
             Elevate Your <span className="text-[#A1E0DC]">Experience.</span>
           </div>
