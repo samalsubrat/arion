@@ -57,3 +57,7 @@ body {
 .blue-gradient {
   background: linear-gradient(111deg, #1a2331 1.79%, #0a1423 74.32%);
 }
+
+.light-gradient{
+  background: linear-gradient(111deg, #ffffff 1.79%, #b0b8c3 74.32%);
+}
