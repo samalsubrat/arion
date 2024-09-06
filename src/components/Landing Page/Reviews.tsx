@@ -38,7 +38,7 @@ const Reviews = () => {
         <div className="relative h-[75vh] overflow-hidden">
           <div className="flex flex-col md:flex-row w-full ">
             {/* For large screens */}
-            <div className="hidden 2xl:flex flex-row w-full">
+            <div className="hidden 2xl:flex flex-row w-full mr-2">
               <div className="flex w-full gap-2">
                 <Marquee pauseOnHover vertical className="[--duration:20s] w-1/3 flex-shrink-0">
                   {firstRow.map((item, index) => (
